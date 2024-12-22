@@ -1,0 +1,80 @@
+\chapter*{Block 8: Market Structure and Imperfect Competition}
+
+\section*{Imperfect Competition, Oligopoly, and Monopolistic Competition}
+Imperfect competition refers to any market structure where firms face a downward-sloping demand curve, indicating they have some market power. \textbf{Oligopoly} is a specific type of imperfect competition characterized by a small number of firms that interact strategically. Each firm's actions affect its rivals, and its optimal choices depend on its rivals' actions. \textbf{Monopolistic competition} is another type of imperfect competition with many firms, each selling a differentiated product. Product differentiation creates some degree of market power for each firm.
+
+\section*{Cost and Demand's Influence on Market Structure}
+The relationship between cost and demand determines market structure. The key concept is \textbf{minimum efficient scale} (MES), the lowest output level where LRAC is minimized. If MES is small relative to market demand, many firms can operate efficiently, leading to monopolistic competition or even perfect competition. If MES is large relative to market demand, only a few firms can operate efficiently, resulting in an oligopoly or monopoly.
+
+\section*{N-Firm Concentration Ratio}
+The \textbf{N-firm concentration ratio} measures the proportion of total industry output produced by the \(N\) largest firms. It is used to quantify market concentration. A high concentration ratio suggests less competition.
+
+\section*{Equilibrium in Monopolistic Competition}
+In monopolistic competition, the long-run equilibrium occurs where each firm's demand curve is tangent to its average cost (AC) curve. Firms earn zero economic profit (covering only opportunity costs) because free entry and exit eliminate any economic rents. The equilibrium is not at the minimum of the AC curve, indicating inefficiency.
+
+\section*{Collusion and Competition in a Cartel}
+A \textbf{cartel} is a group of firms that collude to restrict output and raise prices, mimicking a monopoly. The tension exists because while firms benefit collectively from collusion (higher profits), each firm has an incentive to cheat and produce more than agreed to capture a larger market share. This is often modeled using game theory.
+
+\section*{Game Theory and Strategic Behavior}
+\textbf{Game theory} is a tool used to analyze strategic interactions between firms (or other players). Key concepts include:
+\begin{itemize}
+    \item \textbf{Dominant strategy:} A strategy that is best for a player regardless of what the other player does.
+    \item \textbf{Nash equilibrium:} A situation where no player has an incentive to change its strategy given the strategies of other players.
+\end{itemize}
+
+\section*{Simultaneous Games and Nash Equilibria}
+\textbf{Simultaneous games} (one-shot games) are games where players choose their actions at the same time. The Nash equilibrium is found by identifying the best response for each player given the other player's action. The intersection of the best responses constitutes the Nash equilibrium.
+
+\section*{Sequential Games and Backwards Induction}
+In \textbf{sequential games}, players move in a specific order. \textbf{Backwards induction} is a solution method that starts from the last stage of the game and works backward to determine optimal strategies at each stage. It is often illustrated using a decision tree.
+
+\section*{Reaction Functions and Nash Equilibrium}
+\textbf{Reaction functions} describe how a firm's optimal choice depends on its rival's action. In a duopoly (two firms), each firm's reaction function expresses its profit-maximizing output as a function of the rival firm's output. The Nash equilibrium is the point where these functions intersect—the output levels where each firm's choice is a best response to the other's.
+
+\section*{Cournot and Bertrand Competition}
+\begin{itemize}
+    \item \textbf{Cournot competition:} Firms compete by choosing quantities simultaneously. The Nash equilibrium is found using reaction functions.
+    \item \textbf{Bertrand competition:} Firms compete by choosing prices simultaneously. In this case, the Nash equilibrium is often where prices equal marginal cost.
+\end{itemize}
+
+\section*{The Cournot Model: Formulas and Derivations}
+The Cournot model analyzes a duopoly (two firms) where firms compete by simultaneously choosing their output levels. Here’s a derivation of the key formulas, assuming linear demand and constant marginal costs:
+\begin{itemize}
+    \item \textbf{Market demand curve:} \(P = a - bQ\), where \(P\) is the price, \(Q\) is the total market quantity, \(a\) is the price intercept, and \(b\) is the slope (\(b > 0\)). The total quantity is the sum of the quantities produced by the two firms: \(Q = Q_A + Q_B\).
+    \item \textbf{Constant Marginal Cost:} Each firm has a constant marginal cost, \(c\). We assume \(c < a\) for the model to be meaningful.
+    \item \textbf{Profit Maximization:} Firms maximize profit where \(\pi = TR - TC\), where \(TR\) is total revenue and \(TC\) is total cost.
+\end{itemize}
+
+\subsection*{Derivation of Reaction Functions}
+\textbf{Firm A:}
+\[
+TR_A = P \cdot Q_A = (a - b(Q_A + Q_B))Q_A = aQ_A - bQ_A^2 - bQ_AQ_B
+\]
+\[
+MR_A = \frac{\partial TR_A}{\partial Q_A} = a - 2bQ_A - bQ_B
+\]
+\[
+\text{Set } MR_A = MC_A \implies a - 2bQ_A - bQ_B = c
+\]
+\[
+\text{Solve for } Q_A: \quad Q_A = \frac{a - c}{2b} - \frac{Q_B}{2}
+\]
+
+\textbf{Firm B:}
+\[
+Q_B = \frac{a - c}{2b} - \frac{Q_A}{2}
+\]
+
+\subsection*{Nash Equilibrium}
+At equilibrium, \(Q_A = Q_B = Q^*\). Solving the symmetric reaction functions:
+\[
+Q^* = \frac{a - c}{3b}
+\]
+
+\subsection*{Equilibrium Price}
+\[
+P^* = a - b(Q_A^* + Q_B^*) = a - b\left(\frac{2(a - c)}{3b}\right) = \frac{a + 2c}{3}
+\]
+
+\section*{Stackelberg Leadership}
+In \textbf{Stackelberg competition}, one firm (the leader) moves first and chooses its output, followed by the other firm (the follower) choosing its output given the leader's output. The leader has a first-mover advantage and gets higher profits than in Cournot competition. The follower has lower profits than in Cournot competition.
